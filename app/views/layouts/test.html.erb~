@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple CMS</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Simple CMS Admin</h1>
+    </div>
+    <div id="main">
+      <div id="content">
+        <!-- before yield -->
+        <%= yield %>
+        <!-- after yield -->
+      </div> <!-- content -->
+    </div> <!-- main -->
+    <div id="footer">
+      <p id="copyright">&copy; neo-dev.org / Neo Sepulveda</p>
+    </div> <!-- footer --> 
+  </body>
+</html>
